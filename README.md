@@ -11,17 +11,17 @@
 ### Method: 
 [Link to All Methods](https://docs.python.org/3/library/turtle.html#methods-of-turtlescreen-screen)
 * Setters
-    * **setup(width, height)** - sets dimensions
-    * **bgcolor(color)** - sets color
-    * **bgpic(picture)** - sets background
-    * **title(title)** - sets title
-    * **tracer(n)** - sets refresh rate
+    * [setup(width, height)](https://docs.python.org/3/library/turtle.html#turtle.setup) - sets dimensions
+    * [bgcolor(color)](https://docs.python.org/3/library/turtle.html#turtle.bgcolor) - sets color
+    * [bgpic(picture)](https://docs.python.org/3/library/turtle.html#turtle.bgpic) - sets background
+    * [title(title)](https://docs.python.org/3/library/turtle.html#turtle.title) - sets title
+    * [tracer(n)](https://docs.python.org/3/library/turtle.html#turtle.tracer)- sets refresh rate
 * Others:
-    * **listen()** - Makes the screen listen for events. This method allows the program to respond to keyboard or mouse input.
-    * **onkey(function, key)** - Binds the specified function fun to the given key. When the key is pressed, the function is executed.
-    * **onscreenclick(function)** - Binds the specified function fun to mouse clicks on the screen. 
-    * **update()** - Updates the screen's appearance. This method is useful for animations to display changes made since the last update.
-    * **reset()** - Clears the drawing screen and resets all attributes to their default values.
+    * [listen()](https://docs.python.org/3/library/turtle.html#turtle.listen) - Makes the screen listen for events. This method allows the program to respond to keyboard or mouse input.
+    * [onkey(function, key)](https://docs.python.org/3/library/turtle.html#turtle.onkey) - Binds the specified function fun to the given key. When the key is pressed, the function is executed.
+    * [onscreenclick(function)](https://docs.python.org/3/library/turtle.html#turtle.onclick) - Binds the specified function fun to mouse clicks on the screen. 
+    * [update()](https://docs.python.org/3/library/turtle.html#turtle.update) - Updates the screen's appearance. This method is useful for animations to display changes made since the last update.
+ 
 
 
 
