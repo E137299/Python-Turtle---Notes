@@ -16,6 +16,5 @@ display.tracer(0) #.tracer(n) Controls the animation speed. n specifies the numb
 
 
 
-
 # mainloop() keeps the screen open until it is manually closed
 display.mainloop()
