@@ -11,6 +11,7 @@ first.color("red")
 second = Turtle()
 second.shape("circle")
 second.color("yellow")
+second.hideturtle()
 
 '''
 Movement using forward(), left(), right()
@@ -22,6 +23,7 @@ for side in range(4):
         first.penup()
         first.forward(10)
     first.right(90)
+first.hideturtle()
 
 '''
 Movement by assigning position to turtle .goto(x,y) or setposition(x,y)
@@ -34,6 +36,7 @@ second.goto(150,-150)
 second.goto(-150,-150)
 second.goto(-150,150)
 second.goto(150,150)
+second.showturtle()
 
 display.mainloop()
 
