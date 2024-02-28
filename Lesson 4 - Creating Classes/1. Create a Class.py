@@ -18,10 +18,21 @@ class Flower(Turtle):
         self.screen.onkeypress(self.draw_two, right_key)
     
     def draw_one(self):
+        red = 0.1
+        green = 0.7
+        blue = 0.7
         self.pendown()
-        for i in range(50):
-            self.circle(150,90)
-            self.right(220)
+        
+        for j in range(50):
+            red += 0.1
+            self.begin_fill()
+            self.fillcolor(red,green,blue)
+            self.circle(50,90)
+            self.right(33)
+            self.end_fill()
+            if red > 1.0:
+                red = 0.0
+
     
     def draw_two(self):
         self.pendown()
