@@ -4,8 +4,11 @@ from turtle import *
 # Creates a Screen object
 display = Screen()
 
+t = Turtle()
+s = Turtle()
 
 
+t.teleport(100,100)
 
 
 
