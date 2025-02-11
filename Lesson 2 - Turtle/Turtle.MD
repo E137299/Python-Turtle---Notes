@@ -1,4 +1,9 @@
 ### **Essential `Turtle()` Methods**
+
+#### Coordinate Plane
+![Coordinate Plane](coordinateplane.png)
+
+
 | Method | Description | Example |
 |---------|------------|---------|
 | `forward(distance)` or `fd(distance)` | Moves the turtle forward by the specified `distance`. | `t.forward(100)` |
@@ -29,3 +34,4 @@
 | `write(text, move=False, align="left", font=("Arial", 8, "normal"))` | Writes `text` at the turtle’s position with optional alignment and font settings. | `t.write("Hello!", align="center", font=("Arial", 12, "bold"))` |
 | `stamp()` | Leaves an imprint of the turtle at its current position. | `t.stamp()` |
 | `undo()` | Undoes the last turtle action. | `t.undo()` |
+
