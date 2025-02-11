@@ -2,6 +2,7 @@
 
 #### Coordinate Plane
 ![Coordinate Plane](coordinateplane.png)
+![Angle](angle.png)
 
 
 | Method | Description | Example |
