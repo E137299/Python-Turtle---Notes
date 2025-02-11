@@ -3,7 +3,7 @@
 #### Coordinate Plane
 ![Coordinate Plane](coordinateplane.png)
 
-![Angle](images/Turtle%20Degrees.webp)
+![Headings](images/Turtle%20Degrees.webp)
 
 
 | Method | Description | Example |
