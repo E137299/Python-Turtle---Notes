@@ -8,10 +8,7 @@
 | `register_shape(name, shape)` | Registers a new shape for turtles. |
 | `resetscreen()` | Resets the screen to its initial state. |
 | `screensize(canvwidth, canvheight, bg)` | Sets the size of the drawing canvas. |
-| `setworldcoordinates(llx, lly, urx, ury)` | Sets up user-defined coordinate system. |
 | `title(title)` | Sets the title of the window. |
 | `tracer(n=None, delay=None)` | Controls animation speed by skipping frames. |
 | `update()` | Updates the screen when `tracer(0)` is used. |
-| `window_height()` | Returns the height of the screen in pixels. |
-| `window_width()` | Returns the width of the screen in pixels. |
 
